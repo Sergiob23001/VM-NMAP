@@ -13,7 +13,6 @@ Information to Look For: List of live hosts.
 Unexpected devices on the network (indicating unauthorized access or rogue devices).
 
 2. Basic Port Scan
-
 Command: nmap -p 80,443 [target IP]
 Flag Explanation: The -p flag specifies which ports to scan (e.g., ports 80 and 443 for HTTP and HTTPS).
 
@@ -23,8 +22,7 @@ Information to Look For:
   Open ports that indicate running services.
   Services that shouldn’t be accessible externally (e.g., database or management interfaces).
 
-  3.Service Version Detection
-
+3.Service Version Detection
 Command: nmap -sV [target IP]
 Flag Explanation: The -sV flag attempts to detect the versions of services running on open ports.
 
@@ -34,8 +32,7 @@ Information to Look For:
   Service names and version numbers.
   Deprecated or vulnerable software versions.
 
-  4.Full TCP Scan
-
+4.Full TCP Scan
 Command: nmap -sT [target IP]
 Flag Explanation: The -sT flag initiates a full TCP connection scan, providing accurate results but is noisier.
 
@@ -47,7 +44,6 @@ Information to Look For:
 
 
 5. Aggressive Scan
-
 Command: nmap -A [target IP]
 Flag Explanation: The -A flag enables aggressive scanning, combining multiple advanced scanning techniques into one command.
 
