@@ -23,7 +23,7 @@ Information to Look For:
   Open ports that indicate running services.
   Services that shouldn’t be accessible externally (e.g., database or management interfaces).
 
-3.Service Version Detection
+  3.Service Version Detection
 
 Command: nmap -sV [target IP]
 Flag Explanation: The -sV flag attempts to detect the versions of services running on open ports.
@@ -34,7 +34,7 @@ Information to Look For:
   Service names and version numbers.
   Deprecated or vulnerable software versions.
 
-4.Full TCP Scan
+  4.Full TCP Scan
 
 Command: nmap -sT [target IP]
 Flag Explanation: The -sT flag initiates a full TCP connection scan, providing accurate results but is noisier.
