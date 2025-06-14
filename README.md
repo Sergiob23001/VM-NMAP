@@ -1,4 +1,4 @@
-# VM-NMAP
+# Project 2 VM-NMAP
 Virtual Machine Setup and Network Scanning
 
 GOAL: The goal for this project was to understand and learn how-to install and set up a VirtualBox with Kali Linux and Execute a Network Scanning using 5 common Nmap scans along with explanations for the flags used in each:
