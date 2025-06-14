@@ -3,9 +3,10 @@ Virtual Machine Setup and Network Scanning
 
 GOAL: The goal for this project was to understand and learn how-to install and set up a VirtualBox with Kali Linux and Execute a Network Scanning using 5 common Nmap scans along with explanations for the flags used in each:
 
-1. Simple Host Discovery
-Command: nmap -sn [Target IP or range]
-Flag Explanation: The -sn flag initiates a simple host discovery (ping scan) to check which hosts are up without scanning ports.
+1. To determine which hosts are up on a network
+Command: Nmap -sP Command
+![CommandNmap1](https://github.com/user-attachments/assets/260bfdf5-6fa5-4f35-9496-4134f573cb17)
+
 
 Why It’s Used: This scan is primarily used to identify live hosts on a network without triggering a more intrusive port scan. It's often the first step to establish a baseline of active devices in an environment.
 
